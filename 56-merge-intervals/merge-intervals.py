@@ -1,9 +1,5 @@
-class Solution(object):
-    def merge(self, intervals):
-        """
-        :type intervals: List[List[int]]
-        :rtype: List[List[int]]
-        """
+class Solution:
+    def merge(self, intervals: List[List[int]]) -> List[List[int]]:
         intervals.sort()
 
         merged = []
@@ -16,4 +12,3 @@ class Solution(object):
                 # the end of interval (rightmost number of the interval)
 
         return merged
-
