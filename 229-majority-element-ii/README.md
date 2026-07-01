@@ -32,3 +32,6 @@
 
 <p>&nbsp;</p>
 <p><strong>Follow up:</strong> Could you solve the problem in linear time and in <code>O(1)</code> space?</p>
+
+<p>Visualized image of my solution for better understanding</p>
+<img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/bbb32cdb-878d-47b9-9d6b-3c3ffb19232f" />
