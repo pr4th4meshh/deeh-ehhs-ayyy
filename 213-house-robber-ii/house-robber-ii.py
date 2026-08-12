@@ -1,5 +1,8 @@
 class Solution:
     def rob(self, nums: List[int]) -> int:
+        #TC = O(n) because it depends on input size
+        #SC = O(n) because declaring vars in helper function and 
+        #slicing the nums array
         if len(nums) == 1:
             return nums[0]
         return max(self.helper(nums[1:]), self.helper(nums[:-1]))
