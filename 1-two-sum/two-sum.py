@@ -5,10 +5,17 @@ class Solution(object):
         :type target: int
         :rtype: List[int]
         """
-        prevMap = {}
+        # prevMap = {}
 
+        # for i, n in enumerate(nums):
+        #     diff = target - n
+        #     if diff in prevMap:
+        #         return [prevMap[diff] , i]
+        #     prevMap[n] = i
+
+        hmap = {}
         for i, n in enumerate(nums):
             diff = target - n
-            if diff in prevMap:
-                return [prevMap[diff] , i]
-            prevMap[n] = i
+            if diff in hmap:
+                return [hmap[diff], i]
+            hmap[n] = i
